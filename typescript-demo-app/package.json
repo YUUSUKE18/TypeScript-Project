@@ -1,0 +1,14 @@
+{
+  "name": "typescript-demo-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc -p . && node .",
+    "type-check": "tsc",
+    "type-check:watch": "tsc --watch"
+  },
+  "main": "main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
