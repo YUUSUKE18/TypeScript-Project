@@ -1,11 +1,7 @@
 const character = "mario";
 
-console.log(character);
+const calc = (dia:number) => {
+  return dia * Math.PI;
+}
 
-const inputs = document.querySelectorAll("input");
-
-console.log(inputs);
-
-inputs.forEach((input) => {
-  console.log(input);
-});
+console.log(calc(8));
