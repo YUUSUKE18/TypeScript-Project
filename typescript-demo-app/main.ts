@@ -1,7 +1,22 @@
-const character = "mario";
+let character: string;
+let age: number;
+let isLoggedIn: boolean;
 
-const calc = (dia:number) => {
-  return dia * Math.PI;
+
+let ninjas: string[]=[];
+
+ninjas.push("yoshi");
+
+let mixed:(string|number|boolean)[]=[];
+mixed.push("yoshi");
+mixed.push(25);
+mixed.push(true);
+mixed.push(false);
+console.log(mixed);
+
+let person:object;
+let persons = {
+  name: String,
+  age: Number,
+  favorite:[]=[],
 }
-
-console.log(calc(8));
