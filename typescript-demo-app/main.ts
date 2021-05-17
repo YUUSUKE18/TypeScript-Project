@@ -1,22 +1,20 @@
-let character: string;
-let age: number;
-let isLoggedIn: boolean;
+let age:any = 25;
 
+age = "taro";
+console.log(age);
 
-let ninjas: string[]=[];
+let person:{name:any, age:any};
 
-ninjas.push("yoshi");
-
-let mixed:(string|number|boolean)[]=[];
-mixed.push("yoshi");
-mixed.push(25);
-mixed.push(true);
-mixed.push(false);
-console.log(mixed);
-
-let person:object;
-let persons = {
-  name: String,
-  age: Number,
-  favorite:[]=[],
+person = {
+  name:25,
+  age: "jiro"
 }
+
+console.log(person);
+
+person = {
+  name: "saburo",
+  age: 35,
+}
+
+console.log(person);

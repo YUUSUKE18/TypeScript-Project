@@ -1,17 +1,14 @@
-var character;
-var age;
-var isLoggedIn;
-var ninjas = [];
-ninjas.push("yoshi");
-var mixed = [];
-mixed.push("yoshi");
-mixed.push(25);
-mixed.push(true);
-mixed.push(false);
-console.log(mixed);
+var age = 25;
+age = "taro";
+console.log(age);
 var person;
-var persons = {
-    name: String,
-    age: Number,
-    favorite: []
+person = {
+    name: 25,
+    age: "jiro"
 };
+console.log(person);
+person = {
+    name: "saburo",
+    age: 35
+};
+console.log(person);
